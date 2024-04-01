@@ -4,6 +4,7 @@ import { Provider } from 'react-redux'
 import { store } from '~/app/store.ts'
 import App from './App.tsx'
 import './index.css'
+import '~/i18n/i18n.ts'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <Provider store={store}>

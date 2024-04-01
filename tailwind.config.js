@@ -1,15 +1,15 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  darkMode: ['selector', '[data-mode="dark"]'],
+  darkMode: 'class',
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
     fontSize: {
-      base: ['16px', '24px'],
-      lg: ['18px', '27px'],
-      xl: ['20px', '28px'],
+      base: ['1rem', '1.5rem'],
+      lg: ['1.125rem', '1.6875rem'],
+      xl: ['2.5rem', '3rem'],
       '2xl': ['40px', '48px'],
-      '3xl': ['48px', '57px'],
-      '4xl': ['56px', '68px']
+      '3xl': ['3rem', '3.6rem'],
+      '4xl': ['3.5rem', '4.2rem']
     },
     extend: {
       fontFamily: {
@@ -35,9 +35,10 @@ export default {
         black: '#333'
       },
       screens: {
-        tablet: '640px',
-        laptop: '1024px',
-        desktop: '1440px'
+        sm: '375px',
+        md: '768px',
+        lg: '1024px',
+        xl: '1280px'
       }
     }
   },
