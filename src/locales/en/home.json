@@ -1,3 +1,19 @@
 {
-  "home": "Home"
+  "home": {
+    "header": {
+      "music": "Discover Music",
+      "movie": "Watch movies",
+      "study": "Study",
+      "new": "News",
+      "more": "Read News",
+      "register": "Register",
+      "login": "Log In"
+    },
+    "banner": {
+      "heading": "Discover the Best in Entertainment Today",
+      "subHeading": "Explore a wide range of music, movies, news, and more."
+    },
+    "start": "Get Started",
+    "more": "Learn More"
+  }
 }

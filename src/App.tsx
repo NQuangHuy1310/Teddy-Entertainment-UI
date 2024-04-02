@@ -1,7 +1,12 @@
 import './App.css'
+import HomeLayout from './layouts/HomeLayout'
 
 function App() {
-  return <></>
+  return (
+    <>
+      <HomeLayout />
+    </>
+  )
 }
 
 export default App
