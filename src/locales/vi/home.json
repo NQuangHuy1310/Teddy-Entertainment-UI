@@ -1,3 +1,19 @@
 {
-  "home": "Trang chủ"
+  "home": {
+    "header": {
+      "music": "Nghe nhạc",
+      "movie": "Xem phim",
+      "study": "Học tập",
+      "new": "Tin tức",
+      "more": "Xem thêm",
+      "register": "Đăng ký",
+      "login": "Đăng nhập"
+    },
+    "banner": {
+      "heading": "Khám phá những điều tốt nhất trong Giải trí hôm nay",
+      "subHeading": "Khám phá một loạt các bài hát, phim, tin tức và nhiều hơn nữa."
+    },
+    "start": "Khám phá ngay",
+    "more": "Tìm hiểu thêm"
+  }
 }

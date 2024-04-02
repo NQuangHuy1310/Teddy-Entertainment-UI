@@ -38,7 +38,8 @@ export default {
         sm: '375px',
         md: '768px',
         lg: '1024px',
-        xl: '1280px'
+        xl: '1280px',
+        container: '1440px'
       }
     }
   },
