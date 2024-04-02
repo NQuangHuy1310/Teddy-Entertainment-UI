@@ -13,3 +13,9 @@
     @apply font-roboto text-base text-black;
   }
 }
+
+/* custom ant design */
+.ant-modal-content {
+  background-color: transparent !important;
+  padding: 0 !important;
+}
