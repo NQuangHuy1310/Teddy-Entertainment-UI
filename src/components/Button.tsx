@@ -7,7 +7,7 @@ const buttonStyles = cva(
   {
     variants: {
       variant: {
-        default: 'border-[1px] border-black bg-white text-black hover:bg-secondary1 hover:text-white hover:transtition',
+        default: 'border-[1px] border-black bg-white text-black hover:opacity-80 hover:transition-all',
         background: 'bg-primary text-white hover:opacity-90 hover:transition-all',
         error: 'bg-error text-white border-none',
         link: 'text-primary underline-offset-4 hover:underline hover:transiton-all'

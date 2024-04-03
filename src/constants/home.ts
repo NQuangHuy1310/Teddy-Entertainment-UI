@@ -1,24 +1,29 @@
-import { navItem } from '~/models'
+import { SocialLink } from '~/models'
+import { FaFacebookSquare, FaInstagram, FaGithub, FaYoutubeSquare, FaTiktok } from 'react-icons/fa'
 
-export const navbarLinks: navItem[] = [
+export const SocaialLinks: SocialLink[] = [
   {
-    name: 'home.header.movie',
-    link: ''
+    link: '',
+    icon: FaFacebookSquare
   },
   {
-    name: 'home.header.music',
-    link: ''
+    link: '',
+    icon: FaInstagram
   },
   {
-    name: 'home.header.study',
-    link: ''
+    link: '',
+    icon: FaGithub
   },
   {
-    name: 'home.header.new',
-    link: ''
+    link: '',
+    icon: FaYoutubeSquare
   },
   {
-    name: 'home.header.more',
-    link: ''
+    link: '',
+    icon: FaFacebookSquare
+  },
+  {
+    link: '',
+    icon: FaTiktok
   }
 ]
