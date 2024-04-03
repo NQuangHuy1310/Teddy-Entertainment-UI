@@ -1,11 +1,12 @@
+import { ReactNode } from 'react'
 import Footer from '../components/Footer'
 import Header from '../components/Header'
 
-const HomeLayout = () => {
+const HomeLayout = ({ children }: { children: ReactNode }) => {
   return (
-    <div className="duration-200">
+    <div className="bg-bgBase text-black duration-200 dark:bg-darkPrimary dark:text-white">
       <Header />
-      <main className="mx-auto min-h-screen bg-bgBase pt-12 dark:bg-darkPrimary"></main>
+      <main className="mx-auto min-h-screen max-w-screen-container pt-12">{children}</main>
       <Footer />
     </div>
   )
