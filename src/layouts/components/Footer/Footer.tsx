@@ -10,7 +10,7 @@ const Footer = () => {
       <footer className="mx-auto max-w-screen-container  px-16 py-16 ">
         <div className="flex flex-col gap-10 border-b-[1px] border-black pb-20 lg:flex-row">
           <div className="flex max-w-[54rem] flex-shrink-0 flex-col gap-6 text-base">
-            <div className="flex w-[6.5rem] cursor-pointer items-center gap-1 rounded-lg bg-secondary1 px-4 py-2 text-white">
+            <div className="flex w-[6.5rem] cursor-pointer items-center gap-1 rounded-lg bg-secondary1 px-4 py-3 text-white">
               <RiBearSmileLine className="h-6 w-6 text-secondary2" />
               <span className="text-lg font-semibold">Teddy</span>
             </div>
