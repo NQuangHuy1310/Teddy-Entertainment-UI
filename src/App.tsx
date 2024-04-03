@@ -3,9 +3,9 @@ import HomeLayout from './layouts/HomeLayout'
 
 function App() {
   return (
-    <>
+    <div className="">
       <HomeLayout />
-    </>
+    </div>
   )
 }
 
