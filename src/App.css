@@ -9,14 +9,18 @@
 }
 
 @layer base {
+  * {
+    @apply duration-200;
+  }
+
   html {
-    @apply font-roboto text-base text-black;
+    @apply bg-white font-roboto text-base text-black;
   }
 }
 
 @layer components {
   .navLinks {
-    @apply text-base font-normal hover:text-primary hover:transition-all;
+    @apply text-base font-normal text-black hover:text-primary hover:transition-all dark:text-white;
   }
 }
 
