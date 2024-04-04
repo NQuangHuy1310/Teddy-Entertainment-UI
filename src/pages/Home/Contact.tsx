@@ -18,9 +18,9 @@ const Contact = () => {
             return (
               <div className="flex flex-col gap-2" key={index}>
                 {<contact.icon className="h-8 w-8" />}
-                <h6 className="text-lg font-bold">{contact.heading}</h6>
-                <p className="text-base">{contact.text}</p>
-                <a className="cursor-pointer text-lg underline">{contact.link}</a>
+                <h6 className="text-lg font-bold">{t(contact.heading)}</h6>
+                <p className="text-base">{t(contact.text)}</p>
+                <a className="cursor-pointer text-lg underline">{t(contact.link)}</a>
               </div>
             )
           })}

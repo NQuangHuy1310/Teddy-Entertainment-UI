@@ -78,7 +78,7 @@ const Section = ({
             <Button variant="background">{t(buttonText ? buttonText : 'home.getStated')}</Button>
           </div>
         </div>
-        <div className="h-[40rem] flex-1">
+        <div className="max-h-[40rem] flex-1">
           <img
             src={image || images.PleaceholderImage}
             alt={t('home.music.discoverMusic')}

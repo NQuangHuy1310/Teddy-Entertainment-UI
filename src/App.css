@@ -14,7 +14,7 @@
   }
 
   html {
-    @apply text-LightPrimary dark:text-DarkPrimary bg-LightBase dark:bg-DarkBase text-base;
+    @apply bg-LightBase text-base text-LightPrimary dark:bg-DarkBase dark:text-DarkPrimary;
   }
 
   h1 {
@@ -22,25 +22,26 @@
   }
 
   h2 {
-    @apply text-md font-bold md:text-2xl lg:text-3xl !important;
+    @apply text-md font-bold md:text-1xl lg:text-2xl !important;
   }
 
   h4 {
-    @apply md:text-md text-md font-semibold lg:text-xl !important;
+    @apply text-md font-semibold md:text-xl !important;
   }
 
-  p {
-    @apply text-base sm:text-sm md:text-lg !important;
+  p,
+  a {
+    @apply text-base sm:text-sm !important;
   }
 
   section {
-    @apply bg-Light dark:bg-Dark text-LightPrimary dark:text-DarkPrimary;
+    @apply bg-Light text-LightPrimary dark:bg-Dark dark:text-DarkPrimary;
   }
 }
 
 @layer components {
   .navLinks {
-    @apply text-LightPrimary dark:text-DarkPrimary text-base font-normal hover:text-primary hover:transition-all;
+    @apply text-base font-normal text-LightPrimary hover:text-primary hover:transition-all dark:text-DarkPrimary;
   }
 
   .section-1 {

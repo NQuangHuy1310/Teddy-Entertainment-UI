@@ -1,5 +1,6 @@
 import { cva, VariantProps } from 'class-variance-authority'
-import { ComponentProps } from 'react'
+import { ComponentProps, ElementType } from 'react'
+import { Link } from 'react-router-dom'
 import { twMerge } from 'tailwind-merge'
 
 const buttonStyles = cva(
@@ -28,8 +29,59 @@ const buttonStyles = cva(
   }
 )
 
-type ButtonProps = VariantProps<typeof buttonStyles> & ComponentProps<'button'>
+type ButtonProps = VariantProps<typeof buttonStyles> &
+  ComponentProps<'button'> & {
+    to?: string
+    href?: string
+    type?: string
+    leftIcon?: React.ReactNode
+    rightIcon?: React.ReactNode
+    disabled?: boolean
+    children?: string | React.ReactNode
+    onClick?: () => void
+  }
 
-export const Button = ({ variant, size, className, ...props }: ButtonProps) => {
-  return <button {...props} className={twMerge(buttonStyles({ variant, size }), className)}></button>
+export const Button = ({
+  variant,
+  size,
+  className,
+  to,
+  href,
+  type,
+  leftIcon,
+  rightIcon,
+  disabled,
+  onClick,
+  children
+}: ButtonProps) => {
+  let Comp: ElementType = 'button'
+  const props: any = { onClick }
+
+  if (disabled) {
+    Object.keys(props).forEach((key) => {
+      if (key.startsWith('on') && typeof props[key] === 'function') {
+        delete props[key]
+      }
+    })
+  }
+
+  if (type) {
+    props.type = type
+  }
+
+  if (to) {
+    props.to = to
+    Comp = Link
+  } else if (href) {
+    props.href = href
+    Comp = 'a'
+  }
+
+  return (
+    <Comp className={twMerge(buttonStyles({ variant, size }), className)} {...props} onClick={onClick}>
+      {leftIcon && <span>{leftIcon}</span>}
+      <span>{children}</span>
+      {rightIcon && <span>{rightIcon}</span>}
+    </Comp>
+  )
 }
