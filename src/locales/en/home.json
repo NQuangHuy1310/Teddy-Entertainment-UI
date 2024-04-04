@@ -11,15 +11,76 @@
     },
     "banner": {
       "heading": "Discover the Best in Entertainment Today",
-      "subHeading": "Explore a wide range of music, movies, news, and more."
+      "subHeading": "Explore a wide range of music, movies, news, and more.",
+      "learnMore": "Learn More"
     },
     "start": "Get Started",
     "more": "Learn More",
     "address": "Address",
-    "contact": "Liên hệ",
+    "contact": "Contact",
     "copyright": "© 2024 Teddy Enterntainment. All rights reserved.",
     "policy": "Privacy Policy",
     "service": "Terms of Service",
-    "setting": "Cookies Settings"
+    "setting": "Cookies Settings",
+    "getStated": "Get Stated",
+    "discover": "Discover",
+    "music": {
+      "discoverMusic": "New Releases and Popular Tracks for You",
+      "subMusic": "Explore the latest music releases and popular tracks handpicked just for you. Whether you're into hip hop, rock, or pop, we have something for everyone.",
+      "newMusic": "New Releases",
+      "subText1": "Discover the hottest new songs from your favorite artists and genres.",
+      "subText2": "Get hooked on the most popular tracks trending right now across the global."
+    },
+    "study": {
+      "discoverStudy": "Expand Your Knowledge with Interactive Quizzes",
+      "subStudy": "Explore our curated collection of educational quizzes designed to enhance your learning experience and test your knowledge.",
+      "newStudy": "New Quizzes",
+      "newStudy2": "Brain Teasers",
+      "subText1": "Discover a variety of quizzes tailored to different subjects and topics.",
+      "subText2": "Challenge yourself with brain teasers that enhance critical thinking and problem-solving skills.",
+      "studyNow": "Study now"
+    },
+    "movie": {
+      "discoverMovie": "Explore the Latest Movies and Trailers",
+      "subMovie": "Get a sneak peek at the newest and most popular films in theaters. From action-packed blockbusters to heartwarming dramas, we've got you covered.",
+      "subText1": "Action-Packed Thrillers",
+      "subText2": "Heartwarming Dramas",
+      "subText3": "Captivating Documentaries"
+    },
+    "news": {
+      "discoverMovie": "Stay Informed with the Latest News and Feature Stories",
+      "subMovie": "Get access to breaking news headlines and engaging feature stories that keep you updated and entertained.",
+      "subText1": "Breaking News Headlines",
+      "subText2": "Engaging Feature Stories",
+      "subText3": "Stay Informed and Entertained"
+    },
+    "services": {
+      "title": "Discover a World of Entertainment Options",
+      "subTitle": "With our entertainment website, you can access a wide selection of music, movies, study aids, news, and sports coverage all in one place.",
+      "buttonText": "Explore"
+    },
+    "endlessPossibilities": {
+      "title": "Endless Entertainment Possibilities Await You",
+      "subTitle": "Experience the ultimate entertainment destination with our diverse collection of music, movies, study aids, news, and sports coverage.",
+      "buttonText": "Discover"
+    },
+    "stayEntertained": {
+      "title": "Stay Entertained Wherever You Go",
+      "subTitle": "Access our entertainment website anytime, anywhere, and enjoy a wide range of music, movies, study aids, news, and sports coverage on your preferred device.",
+      "buttonText": "Start"
+    },
+    "sContact": {
+      "discover": "Connect",
+      "heading": "Contact Information",
+      "subHeading": "Have a question or need assistance? Get in touch with us!",
+      "email": "Email",
+      "phone": "Phone",
+      "office": "Office",
+      "emailText": "Send us an email",
+      "emailData": "huynq13102004@gmail.com",
+      "phoneText": "Call us for assistance",
+      "phoneData": "0352223905",
+      "address": "Cao đẳng FPT Polyteachnic - Nam Từ Niêm, Hà Nội, Việt Nam"
+    }
   }
 }

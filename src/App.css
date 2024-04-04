@@ -14,13 +14,41 @@
   }
 
   html {
-    @apply bg-white font-roboto text-base text-black;
+    @apply text-LightPrimary dark:text-DarkPrimary bg-LightBase dark:bg-DarkBase text-base;
+  }
+
+  h1 {
+    @apply text-xl font-semibold md:text-2xl lg:text-3xl !important;
+  }
+
+  h2 {
+    @apply text-md font-bold md:text-2xl lg:text-3xl !important;
+  }
+
+  h4 {
+    @apply md:text-md text-md font-semibold lg:text-xl !important;
+  }
+
+  p {
+    @apply text-base sm:text-sm md:text-lg !important;
+  }
+
+  section {
+    @apply bg-Light dark:bg-Dark text-LightPrimary dark:text-DarkPrimary;
   }
 }
 
 @layer components {
   .navLinks {
-    @apply text-base font-normal text-black hover:text-primary hover:transition-all dark:text-white;
+    @apply text-LightPrimary dark:text-DarkPrimary text-base font-normal hover:text-primary hover:transition-all;
+  }
+
+  .section-1 {
+    @apply rounded-lg sm:px-5 sm:py-10 md:px-6 md:py-12 lg:px-8 lg:py-14;
+  }
+
+  .section-2 {
+    @apply w-full;
   }
 }
 

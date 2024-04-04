@@ -6,23 +6,23 @@ const Footer = () => {
   const { t } = useTranslation()
 
   return (
-    <div className="bg-bgBase text-black dark:bg-bgDark dark:text-white">
-      <footer className="mx-auto max-w-screen-container  px-16 py-16 ">
-        <div className="flex flex-col gap-10 border-b-[1px] border-black pb-20 lg:flex-row">
+    <div className="bg-Light dark:bg-Dark text-LightPrimary dark:text-DarkPrimary">
+      <footer className="mx-auto max-w-screen-container px-16 py-16 ">
+        <div className="flex flex-col gap-10 border-b-[1px] border-black pb-20 dark:border-white lg:flex-row">
           <div className="flex max-w-[54rem] flex-shrink-0 flex-col gap-6 text-base">
             <div className="flex w-[6.5rem] cursor-pointer items-center gap-1 rounded-lg bg-secondary1 px-4 py-3 text-white">
               <RiBearSmileLine className="h-6 w-6 text-secondary2" />
               <span className="text-lg font-semibold">Teddy</span>
             </div>
             <div>
-              <h4 className="font-bold">{t('home.address')}</h4>
+              <h5 className="text-lg font-bold">{t('home.address')}</h5>
               <p className="block">
                 Cao đẳng FPT Polyteachnic - P. Trịnh Văn Bô, Xuân Phương, Nam Từ Niêm, Hà Nội, Việt Nam
               </p>
             </div>
 
             <div>
-              <h4 className="font-bold">{t('home.contact')}</h4>
+              <h5 className="text-lg font-bold">{t('home.contact')}</h5>
               <a href="" className="block underline">
                 0352223905
               </a>
@@ -31,7 +31,7 @@ const Footer = () => {
               </a>
             </div>
 
-            <div className="flex items-center gap-4">
+            <div className="flex flex-wrap items-center gap-4">
               {SocaialLinks.map((item, index) => (
                 <a
                   key={index}
@@ -53,16 +53,16 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="flex items-center justify-between pt-8">
+        <div className="flex flex-col items-center justify-between pt-8 md:flex-row">
           <p>© 2024 Teddy Enterntainment. All rights reserved.</p>
-          <div className="flex items-center gap-4">
-            <a href="" className="text-sm text-nowrap underline">
+          <div className="flex flex-col items-start gap-8 md:flex-row md:items-center md:gap-4  ">
+            <a href="" className="text-nowrap text-sm underline">
               {t('home.policy')}
             </a>
-            <a href="" className="text-sm text-nowrap underline">
+            <a href="" className="text-nowrap text-sm underline">
               {t('home.service')}
             </a>
-            <a href="" className="text-sm text-nowrap underline">
+            <a href="" className="text-nowrap text-sm underline">
               {t('home.setting')}
             </a>
           </div>

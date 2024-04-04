@@ -22,7 +22,7 @@ const Confirm = (props: confirmProps) => {
     >
       <div className="flex w-[20rem] flex-col items-center justify-center gap-8 rounded-lg bg-darkPrimary px-8 py-14 text-center text-white">
         <h5 className="text-lg font-bold">{title}</h5>
-        <p className="text-sm mb-8 w-[14rem]">{subTitle}</p>
+        <p className="mb-8 w-[14rem] text-sm">{subTitle}</p>
         <div className="flex items-center gap-4">
           <Button variant="default" size="default" onClick={() => onCancel()}>
             Cancel

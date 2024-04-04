@@ -11,7 +11,8 @@
     },
     "banner": {
       "heading": "Khám phá những điều tốt nhất trong Giải trí hôm nay",
-      "subHeading": "Khám phá một loạt các bài hát, phim, tin tức và nhiều hơn nữa."
+      "subHeading": "Khám phá một loạt các bài hát, phim, tin tức và nhiều hơn nữa.",
+      "learnMore": "Tìm hiểu thêm"
     },
     "start": "Khám phá ngay",
     "more": "Tìm hiểu thêm",
@@ -20,6 +21,67 @@
     "copyright": "© 2024 Teddy Enterntainment. Đã đăng ký bản quyền.",
     "policy": " Chính sách bảo mật",
     "service": "Điều khoản dịch vụ",
-    "setting": "Cài đặt Cookie"
+    "setting": "Cài đặt Cookie",
+    "getStated": "Khám phá ngay",
+    "discover": "Khám phá",
+    "music": {
+      "discoverMusic": "Các bài hày mới và bài hát phổ biến cho bạn",
+      "subMusic": "Khám phá những bài hát mới nhất và những bài hát phổ biến được chọn lọc đặc biệt dành cho bạn. Cho dù bạn thích hip hop, rock hay pop, chúng tôi có điều gì đó cho mọi người",
+      "newMusic": "Những Bài hát Mới",
+      "subText1": "Khám phá những bài hát mới nhất từ các nghệ sĩ và thể loại âm nhạc yêu thích của bạn.",
+      "subText2": "Trở nên nghiện những bài hát phổ biến nhất đang thịnh hành trên toàn cầu ngay bây giờ."
+    },
+    "study": {
+      "discoverStudy": "Nâng cao Kiến thức với Các Bài Trắc nghiệm",
+      "subStudy": "Khám phá các bài trắc nghiệm được tổ chức, đánh giá và mang tính giáo dục để nâng cao kỹ năng và kiến thức của bạn.",
+      "newStudy": "Bài Trắc nghiệm Mới",
+      "newStudy2": "Kỹ năng Trí tuệ",
+      "subText1": "Khám phá các bài trắc nghiệm đa dạng được thiết kế cho các lĩnh vực và chủ đề khác nhau.",
+      "subText2": "Thử thách bản thân với những bài trắc nghiệm tăng cường kỹ năng tư duy và trí tuệ.",
+      "studyNow": "Bắt đầu học tập"
+    },
+    "movie": {
+      "discoverMovie": "Khám phá Những Bộ Phim và Trailer Mới Nhất",
+      "subMovie": "Dạo quanh những bộ phim mới nhất và phim bom tấn đầy hành động cùng những bộ phim tâm lý đầy cảm động. Chúng tôi sẽ mang đến cho bạn những trải nghiệm tuyệt vời.",
+      "subText1": "Những Bộ Phim Hành Động Hấp Dẫn",
+      "subText2": "Những Bộ Phim Tâm Lý Đầy Cảm Động",
+      "subText3": "Những Bộ Phim Tài Liệu Hấp Dẫn"
+    },
+    "news": {
+      "discoverNew": "Cập Nhật Tin Tức và Bài Viết Nổi Bật Mới Nhất",
+      "subNew": "Tiếp cận với các tiêu đề tin tức mới nhất và những bài viết hấp dẫn giúp bạn cập nhật thông tin và giải trí.",
+      "subText1": "Tiêu Đề Tin Tức Nhanh",
+      "subText2": "Những Bài Viết Hấp Dẫn",
+      "subText3": "Cập Nhật Thông Tin và Giải Trí"
+    },
+
+    "services": {
+      "title": "Khám phá Giải trí đa dạng",
+      "subTitle": "Truy cập vào một loạt các bài hát, phim, tài liệu học tập, tin tức và thể thao - tất cả tại một nơi duy nhất.",
+      "buttonText": "Tìm hiểu"
+    },
+    "endlessPossibilities": {
+      "title": "Khả năng Giải trí",
+      "subTitle": "Trải nghiệm đích đáp giải trí tuyệt vời với bộ sưu tập đa dạng của chúng tôi.",
+      "buttonText": "Khám phá"
+    },
+    "stayEntertained": {
+      "title": "Luôn tận hưởng Giải trí",
+      "subTitle": "Truy cập vào trang web giải trí của chúng tôi bất cứ lúc nào, ở bất kỳ đâu và thưởng thức nhiều nội dung hấp dẫn.",
+      "buttonText": "Bắt đầu"
+    },
+    "sContact": {
+      "discover": "Liên hệ",
+      "heading": "Thông tin liên hệ",
+      "subHeading": "Có câu hỏi hoặc cần hỗ trợ? Hãy liên hệ với chúng tôi!",
+      "email": "Email",
+      "phone": "Điện thoại",
+      "office": "Văn phòng",
+      "emailText": "Gửi email cho chúng tôi",
+      "emailData": "huynq13102004@gmail.com",
+      "phoneText": "Gọi cho chúng tôi để được hỗ trợ",
+      "phoneData": "0352223905",
+      "address": "Cao đẳng FPT Polytechnic - Nam Từ Niêm, Hà Nội, Việt Nam"
+    }
   }
 }

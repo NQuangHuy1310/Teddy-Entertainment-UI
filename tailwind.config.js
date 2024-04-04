@@ -7,7 +7,9 @@ export default {
       sm: ['0.875rem', '1.3125rem'],
       base: ['1rem', '1.5rem'],
       lg: ['1.125rem', '1.6875rem'],
-      xl: ['2.5rem', '3rem'],
+      md: ['1.8rem', '2.3rem'],
+      xl: ['2rem', '2.6rem'],
+      '1xl': ['2.5rem', '3rem'],
       '2xl': ['40px', '48px'],
       '3xl': ['3rem', '3.6rem'],
       '4xl': ['3.5rem', '4.2rem']
@@ -29,11 +31,27 @@ export default {
         errorPriamry: '#FFB7A4'
       },
       backgroundColor: {
-        bgBase: '#fff',
-        bgDark: '#121212'
+        White: '#fff',
+        Black: '#000',
+
+        LightBase: '#F4F4F4',
+        Light: '#FCFCFC',
+
+        DarkBase: '#111315',
+        Dark: '#1A1D1F'
       },
       textColor: {
-        black: '#333'
+        White: '#fff',
+        Black: '#000',
+
+        // light
+        LightPrimary: '#11142D',
+        LightSecondary: '#808191',
+        LightWhite: '#FCFCFC',
+
+        //dark
+        DarkPrimary: '#EFEFEF',
+        DarkSecondary: '#6F767E'
       },
       screens: {
         sm: '375px',
