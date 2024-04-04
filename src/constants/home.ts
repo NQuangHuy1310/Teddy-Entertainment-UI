@@ -1,6 +1,5 @@
 import { contact, service, SocialLink } from '~/models'
 import { FaFacebookSquare, FaInstagram, FaGithub, FaYoutubeSquare, FaTiktok } from 'react-icons/fa'
-import { t } from 'i18next'
 import { FiMail, FiPhone, FiMap } from 'react-icons/fi'
 
 export const SocaialLinks: SocialLink[] = [
@@ -32,39 +31,39 @@ export const SocaialLinks: SocialLink[] = [
 
 export const services: service[] = [
   {
-    title: t('home.services.title'),
-    subTitle: t('home.services.subTitle'),
-    buttonText: t('home.services.buttonText')
+    title: 'home.services.title',
+    subTitle: 'home.services.subTitle',
+    buttonText: 'home.services.buttonText'
   },
   {
-    title: t('home.endlessPossibilities.title'),
-    subTitle: t('home.endlessPossibilities.subTitle'),
-    buttonText: t('home.endlessPossibilities.buttonText')
+    title: 'home.endlessPossibilities.title',
+    subTitle: 'home.endlessPossibilities.subTitle',
+    buttonText: 'home.endlessPossibilities.buttonText'
   },
   {
-    title: t('home.stayEntertained.title'),
-    subTitle: t('home.stayEntertained.subTitle'),
-    buttonText: t('home.stayEntertained.buttonText')
+    title: 'home.stayEntertained.title',
+    subTitle: 'home.stayEntertained.subTitle',
+    buttonText: 'home.stayEntertained.buttonText'
   }
 ]
 
 export const contacts: contact[] = [
   {
     icon: FiMail,
-    heading: t('home.sContact.email'),
-    text: t('home.sContact.emailText'),
-    link: t('home.sContact.emailData')
+    heading: 'home.sContact.email',
+    text: 'home.sContact.emailText',
+    link: 'home.sContact.emailData'
   },
   {
     icon: FiPhone,
-    heading: t('home.sContact.phone'),
-    text: t('home.sContact.phoneText'),
-    link: t('home.sContact.phoneData')
+    heading: 'home.sContact.phone',
+    text: 'home.sContact.phoneText',
+    link: 'home.sContact.phoneData'
   },
   {
     icon: FiMap,
-    heading: t('home.sContact.office'),
-    text: t('home.sContact.address'),
+    heading: 'home.sContact.office',
+    text: 'home.sContact.address',
     link: ''
   }
 ]

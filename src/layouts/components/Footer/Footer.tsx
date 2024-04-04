@@ -6,7 +6,7 @@ const Footer = () => {
   const { t } = useTranslation()
 
   return (
-    <div className="bg-Light dark:bg-Dark text-LightPrimary dark:text-DarkPrimary">
+    <div className="bg-Light text-LightPrimary dark:bg-Dark dark:text-DarkPrimary">
       <footer className="mx-auto max-w-screen-container px-16 py-16 ">
         <div className="flex flex-col gap-10 border-b-[1px] border-black pb-20 dark:border-white lg:flex-row">
           <div className="flex max-w-[54rem] flex-shrink-0 flex-col gap-6 text-base">
@@ -53,7 +53,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="flex flex-col items-center justify-between pt-8 md:flex-row">
+        <div className="flex w-full flex-col items-start justify-between gap-6 pt-8 md:flex-row">
           <p>© 2024 Teddy Enterntainment. All rights reserved.</p>
           <div className="flex flex-col items-start gap-8 md:flex-row md:items-center md:gap-4  ">
             <a href="" className="text-nowrap text-sm underline">

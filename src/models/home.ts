@@ -6,14 +6,14 @@ export interface SocialLink {
 }
 
 export interface service {
-  title: string
-  subTitle: string
-  buttonText: string
+  title: any | string
+  subTitle: any | string
+  buttonText: any | string
 }
 
 export interface contact {
   icon: IconType
-  heading: string
-  text: string
-  link: string
+  heading: any | string
+  text: any | string
+  link: any | string
 }
