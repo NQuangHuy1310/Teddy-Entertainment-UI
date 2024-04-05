@@ -2,9 +2,14 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import { publicRoutes } from './routes'
 import { route } from './models/common'
 import HomeLayout from './layouts/HomeLayout'
-import './App.css'
+import { useEffect } from 'react'
+import { backToTop } from './utils/backtotop'
 
 function App() {
+  useEffect(() => {
+    backToTop()
+  }, [])
+
   return (
     <Router>
       <div className="App">

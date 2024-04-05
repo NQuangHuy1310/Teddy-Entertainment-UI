@@ -7,16 +7,10 @@ import { HiMiniBars3 } from 'react-icons/hi2'
 import Theme from './Theme'
 import { Link } from 'react-router-dom'
 import routes from '~/config/routes'
+import { backToTop } from '~/utils/backtotop'
 
 const Header = () => {
   const { t } = useTranslation(['home'])
-
-  const backToTop = () => {
-    window.scrollTo({
-      top: 0,
-      behavior: 'smooth'
-    })
-  }
 
   return (
     <header className="sticky left-0 right-0 top-0 z-50 border-b-[1px] border-primary bg-Light shadow-lg duration-100 dark:bg-Dark">
@@ -59,8 +53,9 @@ const Header = () => {
           </Button>
         </div>
 
-        <div className="block lg:hidden">
-          <HiMiniBars3 className="h-6 w-6 cursor-pointer" />
+        <div className="flex items-center gap-2 lg:hidden">
+          <Theme />
+          <HiMiniBars3 className="h-6 w-6 cursor-pointer text-Black dark:text-White" />
         </div>
       </div>
     </header>
