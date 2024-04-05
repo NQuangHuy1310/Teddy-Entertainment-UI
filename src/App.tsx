@@ -1,8 +1,8 @@
-import './App.css'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import { publicRoutes } from './routes'
 import { route } from './models/common'
 import HomeLayout from './layouts/HomeLayout'
+import './App.css'
 
 function App() {
   return (

@@ -28,7 +28,13 @@ export default {
         secondary3: '#6D3B00',
 
         darkPrimary: '#191a24',
-        errorPriamry: '#FFB7A4'
+        errorPriamry: '#FFB7A4',
+
+        // custom
+        Gray1: '#23262F',
+        Gray2: '#777E90',
+        Gray5: '#E6E8EC',
+        Gray6: '#F4F5F6'
       },
       backgroundColor: {
         White: '#fff',

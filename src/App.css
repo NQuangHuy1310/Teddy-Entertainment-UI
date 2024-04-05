@@ -26,12 +26,12 @@
   }
 
   h4 {
-    @apply text-md font-semibold md:text-xl !important;
+    @apply text-md font-semibold max-md:text-lg md:text-xl !important;
   }
 
   p,
   a {
-    @apply text-base sm:text-sm !important;
+    @apply text-base sm:text-sm;
   }
 
   section {
