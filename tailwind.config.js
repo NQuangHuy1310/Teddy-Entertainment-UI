@@ -30,9 +30,11 @@ export default {
         darkPrimary: '#191a24',
         errorPriamry: '#FFB7A4',
 
-        // custom
+        // custom Gray colors
         Gray1: '#23262F',
         Gray2: '#777E90',
+        Gray3: '#777E90',
+        Gray4: '#B1B5C3',
         Gray5: '#E6E8EC',
         Gray6: '#F4F5F6'
       },

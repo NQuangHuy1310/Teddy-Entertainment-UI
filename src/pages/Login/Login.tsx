@@ -5,9 +5,12 @@ import Input from '~/components/Input'
 import { FaFacebookSquare } from 'react-icons/fa'
 import { images } from '~/assets'
 import config from '~/config'
+import { useDocountTitle } from '~/hooks'
 
 const Login = () => {
   const { t } = useTranslation(['auth'])
+
+  useDocountTitle(t('auth.signin'))
 
   return (
     <form action="">
@@ -27,13 +30,13 @@ const Login = () => {
         </div>
 
         <div className="flex items-center gap-6">
-          <div className="border-Gray5 flex w-[4rem] cursor-pointer items-center justify-center rounded-md border-[1px] px-4 py-2 ease-linear hover:opacity-80 hover:transition-all md:w-[6.875rem] md:px-6 md:py-3">
+          <div className="socialItem">
             <FaFacebookSquare className="h-6 w-6 text-[#4776D0]" />
           </div>
-          <div className="border-Gray5 flex w-[4rem] cursor-pointer items-center justify-center rounded-md border-[1px] px-4 py-2  ease-linear hover:opacity-80 hover:transition-all md:w-[6.875rem] md:px-6 md:py-3">
+          <div className="socialItem">
             <img src={images.google} alt="" />
           </div>
-          <div className="border-Gray5 flex w-[4rem] cursor-pointer items-center justify-center rounded-md border-[1px] px-4 py-2  ease-linear hover:opacity-80 hover:transition-all md:w-[6.875rem] md:px-6 md:py-3">
+          <div className="socialItem">
             <img src={images.twitter} alt="" />
           </div>
         </div>
