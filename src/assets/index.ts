@@ -5,6 +5,8 @@ import study from './study.jpeg'
 import movie from './movie.jpeg'
 import news from './news.jpeg'
 import relumeIcon from './relume.svg'
+import twitter from './twitter.png'
+import google from './google.png'
 
 export const images = {
   bgHero,
@@ -13,5 +15,7 @@ export const images = {
   study,
   movie,
   news,
-  relumeIcon
+  relumeIcon,
+  twitter,
+  google
 }

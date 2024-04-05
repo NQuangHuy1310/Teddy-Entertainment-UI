@@ -7,7 +7,7 @@ const Input = React.forwardRef<HTMLInputElement, InputProps>(({ className, type,
     <input
       type={type}
       className={twMerge(
-        'border-input bg-background text-sm ring-offset-background file:text-sm placeholder:text-muted-foreground flex h-10 w-full rounded-md border px-3 py-2 file:border-0 file:bg-transparent file:font-medium focus:outline-none disabled:cursor-not-allowed disabled:opacity-50',
+        'flex max-h-[3rem] w-full rounded-md border-[1px] border-[#B1B5C3] bg-White px-5 py-2 text-base text-[#777E90] focus:outline-none disabled:opacity-50 md:px-6 md:py-3',
         className
       )}
       ref={ref}

@@ -6,6 +6,7 @@ import { HiMiniBars3 } from 'react-icons/hi2'
 
 import Theme from './Theme'
 import { Link } from 'react-router-dom'
+import routes from '~/config/routes'
 
 const Header = () => {
   const { t } = useTranslation(['home'])
@@ -50,8 +51,12 @@ const Header = () => {
         <div className="hidden gap-4 lg:flex">
           <Theme />
 
-          <Button variant="default">{t('home.header.register')}</Button>
-          <Button variant="background">{t('home.header.login')}</Button>
+          <Button to={routes.register} variant="default">
+            {t('home.header.register')}
+          </Button>
+          <Button to={routes.register} variant="background">
+            {t('home.header.login')}
+          </Button>
         </div>
 
         <div className="block lg:hidden">

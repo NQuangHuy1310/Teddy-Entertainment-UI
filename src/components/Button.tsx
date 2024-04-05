@@ -18,7 +18,7 @@ const buttonStyles = cva(
       size: {
         default: 'px-5 py-2',
         sm: 'px-6 py-3 rounded-md',
-        lg: 'px-7 py-3.5 rounded-mb',
+        lg: 'px-7 py-3.5 rounded-mb text-lg',
         icon: 'h-10 w-10'
       }
     },
