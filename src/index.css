@@ -40,6 +40,13 @@
   section {
     @apply bg-Light text-LightPrimary dark:bg-Dark dark:text-DarkPrimary;
   }
+
+  select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+  }
 }
 
 @layer components {
@@ -56,7 +63,7 @@
   }
 
   .socialItem {
-    @apply border-Gray5 flex w-[4rem] cursor-pointer items-center justify-center rounded-md border-[1px] px-4 py-2  ease-linear hover:opacity-80 hover:transition-all md:w-[6.875rem] md:px-6 md:py-3;
+    @apply flex w-[4rem] cursor-pointer items-center justify-center rounded-md border-[1px] border-Gray5 px-4 py-2  ease-linear hover:opacity-80 hover:transition-all md:w-[6.875rem] md:px-6 md:py-3;
   }
 }
 
