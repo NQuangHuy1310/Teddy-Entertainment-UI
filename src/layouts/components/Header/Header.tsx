@@ -3,11 +3,11 @@ import { RiBearSmileLine } from 'react-icons/ri'
 import { MdExpandMore } from 'react-icons/md'
 import { Button } from '~/components/Button'
 import { HiMiniBars3 } from 'react-icons/hi2'
-
 import Theme from './Theme'
 import { Link } from 'react-router-dom'
 import routes from '~/config/routes'
 import { backToTop } from '~/utils/backtotop'
+import ChangeLanguage from './ChangeLanguage'
 
 const Header = () => {
   const { t } = useTranslation(['home'])
@@ -42,8 +42,11 @@ const Header = () => {
           </Link>
         </nav>
 
-        <div className="hidden gap-4 lg:flex">
-          <Theme />
+        <div className="hidden items-center gap-4 lg:flex">
+          <div className="flex items-center justify-center gap-2">
+            <ChangeLanguage />
+            <Theme />
+          </div>
 
           <Button to={routes.register} variant="default">
             {t('home.header.register')}

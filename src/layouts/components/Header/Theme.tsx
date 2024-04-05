@@ -21,7 +21,7 @@ const Theme = () => {
   return (
     <Button
       variant="default"
-      className="border-none bg-transparent dark:text-white"
+      className="border-none bg-transparent p-3 dark:text-white"
       onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
     >
       {theme === 'dark' ? <IoMoonOutline className="h-5 w-5" /> : <MdOutlineWbSunny className="h-5 w-5" />}
