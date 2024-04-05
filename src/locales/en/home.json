@@ -9,6 +9,10 @@
       "register": "Register",
       "login": "Log In"
     },
+    "language": {
+      "vi": "Vietnamese",
+      "en": "English"
+    },
     "banner": {
       "heading": "Discover the Best in Entertainment Today",
       "subHeading": "Explore a wide range of music, movies, news, and more.",

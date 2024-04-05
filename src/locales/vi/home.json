@@ -9,6 +9,10 @@
       "register": "Đăng ký",
       "login": "Đăng nhập"
     },
+    "language": {
+      "vi": "Tiếng Việt",
+      "en": "Tiếng Anh"
+    },
     "banner": {
       "heading": "Khám phá những điều tốt nhất trong Giải trí hôm nay",
       "subHeading": "Khám phá một loạt các bài hát, phim, tin tức và nhiều hơn nữa.",
