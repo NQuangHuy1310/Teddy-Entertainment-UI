@@ -15,14 +15,14 @@ const Banner = () => {
           />
         </div>
 
-        <div className="absolute left-0 top-10 flex max-w-[35rem] flex-col items-center justify-center gap-4 p-4 text-white md:left-10 md:top-[10rem] md:items-start md:p-0">
+        <div className="absolute left-0 top-10 flex max-w-[36rem] flex-col items-center justify-center gap-4 p-4 text-white md:left-10 md:top-[10rem] md:items-start md:p-0">
           <h1 className="text-center md:text-left">{t('home.banner.heading')}</h1>
-          <p className="text-center md:text-left">{t('home.banner.subHeading')}</p>
+          <p className="text-center text-base md:text-left md:text-lg">{t('home.banner.subHeading')}</p>
           <div className="flex w-1/2 flex-col gap-4 md:w-full md:flex-row md:items-center">
-            <Button variant="background" size="sm">
+            <Button variant="background" size="md">
               {t('home.getStated')}
             </Button>
-            <Button variant="outLine" size="sm">
+            <Button variant="outLine" size="md">
               {t('home.banner.learnMore')}
             </Button>
           </div>

@@ -20,7 +20,7 @@ const Confirm = (props: confirmProps) => {
       onCancel={onCancel}
       className="flex w-fit items-center justify-center"
     >
-      <div className="flex w-[20rem] flex-col items-center justify-center gap-8 rounded-lg bg-darkPrimary px-8 py-14 text-center text-white">
+      <div className="flex w-[20rem] flex-col items-center justify-center gap-8 rounded-lg bg-Dark px-8 py-14 text-center text-white">
         <h5 className="text-lg font-bold">{title}</h5>
         <p className="mb-8 w-[14rem] text-sm">{subTitle}</p>
         <div className="flex items-center gap-4">

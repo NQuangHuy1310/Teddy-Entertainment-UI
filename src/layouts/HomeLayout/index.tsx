@@ -2,7 +2,7 @@ import { ReactNode, useEffect, useState } from 'react'
 import Footer from '../components/Footer'
 import Header from '../components/Header'
 import { IoIosArrowDropup } from 'react-icons/io'
-import { backToTop } from '~/utils/backtotop'
+import { backToTop } from '~/utils/common'
 
 const HomeLayout = ({ children }: { children: ReactNode }) => {
   const [screenHeight, setScreenHeight] = useState<number>(0)

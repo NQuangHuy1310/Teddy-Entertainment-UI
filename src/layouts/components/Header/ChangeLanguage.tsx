@@ -14,15 +14,17 @@ const ChangeLanguage = () => {
   }
 
   return (
-    <select
-      name="language"
-      id=""
-      className="rounded-lg border-[1px] border-Gray4 px-3 py-2 text-center text-sm focus:outline-none"
-      onChange={handleChange}
-    >
-      <option value="vi">{t('home.language.vi')}</option>
-      <option value="en">{t('home.language.en')}</option>
-    </select>
+    <div className="">
+      <select
+        name="language"
+        id=""
+        className="rounded-lg border-[1px] border-Gray4 px-3 py-2 text-center text-sm focus:outline-none"
+        onChange={handleChange}
+      >
+        <option value="vi">{t('home.language.vi')}</option>
+        <option value="en">{t('home.language.en')}</option>
+      </select>
+    </div>
   )
 }
 
