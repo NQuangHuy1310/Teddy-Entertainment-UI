@@ -17,7 +17,7 @@ const Service = () => {
               </div>
               <div className="flex flex-shrink-0 flex-col gap-6">
                 <h4>{t(service.title)}</h4>
-                <p className="mt-auto block">{t(service.subTitle)}</p>
+                <p className="mt-auto block text-base md:text-lg">{t(service.subTitle)}</p>
               </div>
               <div className="mt-auto">
                 <Button variant="outLine" size="lg">
