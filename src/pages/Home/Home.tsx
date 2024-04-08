@@ -13,6 +13,7 @@ const Home = () => {
         sectionHeading="home.music.discoverMusic"
         subHeading="home.music.subMusic"
         title1="home.music.newMusic"
+        title2="home.music.topTrending"
         subText1="home.music.subText1"
         subText2="home.music.subText2"
         image={images.music}

@@ -31,7 +31,8 @@
     "music": {
       "discoverMusic": "Các bài hày mới và bài hát phổ biến cho bạn",
       "subMusic": "Khám phá những bài hát mới nhất và những bài hát phổ biến được chọn lọc đặc biệt dành cho bạn. Cho dù bạn thích hip hop, rock hay pop, chúng tôi có điều gì đó cho mọi người",
-      "newMusic": "Những Bài hát Mới",
+      "newMusic": "Những bài hát mới",
+      "topTrending": "Những bài hát thịnh hành",
       "subText1": "Khám phá những bài hát mới nhất từ các nghệ sĩ và thể loại âm nhạc yêu thích của bạn.",
       "subText2": "Trở nên nghiện những bài hát phổ biến nhất đang thịnh hành trên toàn cầu ngay bây giờ."
     },
@@ -56,23 +57,23 @@
       "subNew": "Tiếp cận với các tiêu đề tin tức mới nhất và những bài viết hấp dẫn giúp bạn cập nhật thông tin và giải trí.",
       "subText1": "Tiêu Đề Tin Tức Nhanh",
       "subText2": "Những Bài Viết Hấp Dẫn",
-      "subText3": "Cập Nhật Thông Tin và Giải Trí"
+      "subText3": "Cập Nhật Thông Tin và giải Trí"
     },
 
     "services": {
-      "title": "Khám phá Giải trí đa dạng",
-      "subTitle": "Truy cập vào một loạt các bài hát, phim, tài liệu học tập, tin tức và thể thao - tất cả tại một nơi duy nhất.",
-      "buttonText": "Tìm hiểu"
+      "title": "Khám phá thế giới giải trí đa dạng và cuốn hút",
+      "subTitle": "Truy cập vào một loạt bài hát, phim, tài liệu học tập, tin tức và thể thao - tất cả tại một nơi duy nhất.",
+      "buttonText": "Tìm hiểu ngay"
     },
     "endlessPossibilities": {
-      "title": "Khả năng Giải trí",
-      "subTitle": "Trải nghiệm đích đáp giải trí tuyệt vời với bộ sưu tập đa dạng của chúng tôi.",
-      "buttonText": "Khám phá"
+      "title": "Khám phá vô hạn sự thú vị của giải trí",
+      "subTitle": "Trải nghiệm những khoảnh khắc giải trí tuyệt vời với bộ sưu tập đa dạng và phong phú của chúng tôi.",
+      "buttonText": "Khám phá ngay"
     },
     "stayEntertained": {
-      "title": "Luôn tận hưởng Giải trí",
-      "subTitle": "Truy cập vào trang web giải trí của chúng tôi bất cứ lúc nào, ở bất kỳ đâu và thưởng thức nhiều nội dung hấp dẫn.",
-      "buttonText": "Bắt đầu"
+      "title": "Luôn tận hưởng niềm vui của giải trí tuyệt đỉnh",
+      "subTitle": "Truy cập vào trang web giải trí của chúng tôi bất cứ lúc nào, từ bất kỳ đâu và thưởng thức nhiều nội dung hấp dẫn.",
+      "buttonText": "Bắt đầu trải nghiệm"
     },
     "sContact": {
       "discover": "Liên hệ",
