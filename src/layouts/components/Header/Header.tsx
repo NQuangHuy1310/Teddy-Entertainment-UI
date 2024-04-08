@@ -6,7 +6,7 @@ import { HiMiniBars3 } from 'react-icons/hi2'
 import Theme from './Theme'
 import { Link } from 'react-router-dom'
 import routes from '~/config/routes'
-import { backToTop } from '~/utils/backtotop'
+import { backToTop } from '~/utils/common'
 import ChangeLanguage from './ChangeLanguage'
 
 const Header = () => {
@@ -14,7 +14,7 @@ const Header = () => {
 
   return (
     <header className="sticky left-0 right-0 top-0 z-50 border-b-[1px] border-primary bg-Light shadow-lg duration-100 dark:bg-Dark">
-      <div className="mx-auto flex h-[4.5rem] max-w-screen-container items-center justify-between px-8 py-6">
+      <div className="relative mx-auto flex h-[4.5rem] max-w-screen-container items-center justify-between px-8 py-6">
         <div
           className="flex cursor-pointer items-center gap-1 rounded-lg bg-secondary1 px-4 py-2 text-white"
           onClick={backToTop}

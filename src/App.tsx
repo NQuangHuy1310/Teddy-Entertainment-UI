@@ -3,7 +3,7 @@ import { publicRoutes } from './routes'
 import { route } from './models/common'
 import HomeLayout from './layouts/HomeLayout'
 import { useEffect } from 'react'
-import { backToTop } from './utils/backtotop'
+import { backToTop } from './utils/common'
 
 function App() {
   useEffect(() => {

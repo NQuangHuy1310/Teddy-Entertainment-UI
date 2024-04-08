@@ -19,6 +19,7 @@ export default {
         roboto: ['Roboto', 'sans-serif']
       },
       colors: {
+        // home page light color
         primary: '#06aafe',
         error: '#FF6370',
         warning: '#ffc107',
@@ -27,9 +28,6 @@ export default {
         secondary2: '#D6F4FF',
         secondary3: '#6D3B00',
 
-        darkPrimary: '#191a24',
-        errorPriamry: '#FFB7A4',
-
         // custom Gray colors
         Gray1: '#23262F',
         Gray2: '#777E90',
@@ -37,6 +35,8 @@ export default {
         Gray4: '#B1B5C3',
         Gray5: '#E6E8EC',
         Gray6: '#F4F5F6'
+
+        // page ...
       },
       backgroundColor: {
         White: '#fff',
