@@ -4,7 +4,10 @@ const routes = {
   login: '/login',
   personal: '/user/settings/personal',
   security: '/user/settings/security',
-  notifications: '/user/settings/notifications'
+  notifications: '/user/settings/notifications',
+
+  // music
+  music: '/music'
 }
 
 export default routes

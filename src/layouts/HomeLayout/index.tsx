@@ -1,6 +1,6 @@
 import { ReactNode, useEffect, useState } from 'react'
 import Footer from '../components/Footer'
-import Header from '../components/Header'
+import Header from '../components/HomeHeader'
 import { IoIosArrowDropup } from 'react-icons/io'
 import { backToTop } from '~/utils/common'
 
