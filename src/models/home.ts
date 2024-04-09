@@ -17,3 +17,9 @@ export interface contact {
   text: any | string
   link: any | string
 }
+
+export interface sideBarItem {
+  icon: IconType
+  link: string
+  text: any | string
+}

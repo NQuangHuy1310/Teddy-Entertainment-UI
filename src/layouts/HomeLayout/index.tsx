@@ -20,7 +20,7 @@ const HomeLayout = ({ children }: { children: ReactNode }) => {
   return (
     <div className="bg-LightBase dark:bg-DarkBase">
       <Header />
-      <main className="mx-auto min-h-screen max-w-screen-container sm:px-3 md:px-4">{children}</main>
+      <main className="mx-auto mt-4 min-h-screen max-w-screen-container sm:px-3 md:px-4">{children}</main>
       <Footer />
 
       <div
