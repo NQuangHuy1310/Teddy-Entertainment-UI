@@ -15,13 +15,14 @@ const Header = () => {
   return (
     <header className="sticky left-0 right-0 top-0 z-50 border-b-[1px] border-primary bg-Light shadow-lg duration-100 dark:bg-Dark">
       <div className="relative mx-auto flex h-[4.5rem] max-w-screen-container items-center justify-between px-8 py-6">
-        <div
+        <Link
+          to="/"
           className="flex cursor-pointer items-center gap-1 rounded-lg bg-secondary1 px-4 py-2 text-white"
           onClick={backToTop}
         >
           <RiBearSmileLine className="h-6 w-6 text-secondary2" />
           <span className="text-lg font-semibold">Teddy</span>
-        </div>
+        </Link>
 
         <nav className="hidden items-center gap-8 capitalize lg:flex">
           <Link to="" target="_blank" className="navLinks block">

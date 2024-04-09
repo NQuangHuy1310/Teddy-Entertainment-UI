@@ -5,7 +5,7 @@ const Banner = () => {
   const { t } = useTranslation('home')
 
   return (
-    <section className="section-2 mt-4 overflow-hidden shadow-md">
+    <section className="section-2 overflow-hidden shadow-md">
       <div className="relative">
         <div className="h-[40rem] max-md:h-[30rem]">
           <img

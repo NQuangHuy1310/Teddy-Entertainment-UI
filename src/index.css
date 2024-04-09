@@ -25,11 +25,11 @@
   }
 
   h2 {
-    @apply text-md font-bold md:text-1xl lg:text-2xl;
+    @apply text-md font-bold text-LightPrimary dark:text-DarkPrimary md:text-1xl lg:text-2xl;
   }
 
   h4 {
-    @apply text-md font-semibold md:text-lg lg:text-xl;
+    @apply text-md font-semibold text-LightPrimary dark:text-DarkPrimary md:text-lg lg:text-xl;
   }
 
   p,

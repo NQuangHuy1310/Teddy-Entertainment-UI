@@ -1,6 +1,8 @@
-import { contact, service, SocialLink } from '~/models'
-import { FaFacebookSquare, FaInstagram, FaGithub, FaYoutubeSquare, FaTiktok } from 'react-icons/fa'
+import { contact, service, sideBarItem, SocialLink } from '~/models'
+import { FaFacebookSquare, FaInstagram, FaGithub, FaYoutubeSquare, FaTiktok, FaRegUser } from 'react-icons/fa'
 import { FiMail, FiPhone, FiMap } from 'react-icons/fi'
+import { MdSecurity } from 'react-icons/md'
+import { FaRegBell } from 'react-icons/fa6'
 
 export const SocaialLinks: SocialLink[] = [
   {
@@ -65,5 +67,23 @@ export const contacts: contact[] = [
     heading: 'home.sContact.office',
     text: 'home.sContact.address',
     link: ''
+  }
+]
+
+export const sidebars: sideBarItem[] = [
+  {
+    icon: FaRegUser,
+    link: '',
+    text: 'Cài đặt tài khoản'
+  },
+  {
+    icon: MdSecurity,
+    link: '',
+    text: 'Bảo mật và đăng nhập'
+  },
+  {
+    icon: FaRegBell,
+    link: '',
+    text: 'Thông báo'
   }
 ]
