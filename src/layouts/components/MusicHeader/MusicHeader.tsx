@@ -4,7 +4,7 @@ import config from '~/config'
 
 const MusicHeader = () => {
   return (
-    <div className="bg-MusicHeader sticky left-0 right-0 top-0 flex h-16 w-full items-center justify-between px-6 py-4">
+    <div className="sticky left-0 right-0 top-0 z-50 flex h-16 w-full items-center justify-between bg-MusicHeader px-6 py-4">
       <div className="flex items-center gap-4">
         <span className="flex h-8 w-8 cursor-pointer items-center justify-center rounded-full bg-Dark">
           <MdKeyboardArrowLeft className="h-6 w-6" />

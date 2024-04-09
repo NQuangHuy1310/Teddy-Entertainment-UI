@@ -65,6 +65,13 @@
   .socialItem {
     @apply flex w-[4rem] cursor-pointer items-center justify-center rounded-md border-[1px] border-Gray5 px-4 py-2  ease-linear hover:opacity-80 hover:transition-all md:w-[6.875rem] md:px-6 md:py-3;
   }
+
+  .text-overflow {
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    display: -webkit-box;
+  }
 }
 
 @layer utilities {
