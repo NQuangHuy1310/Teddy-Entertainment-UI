@@ -12,3 +12,10 @@ export interface navLink {
   text: any | string
   icon: IconType
 }
+
+export interface musicInfo {
+  name: string
+  image: string
+  singer: string
+  link: string
+}

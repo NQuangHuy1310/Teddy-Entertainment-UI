@@ -8,7 +8,7 @@ const MusicLayout = ({ children }: { children: ReactNode }) => {
       <MusicSidebar />
       <div className="no-scrollbar flex-1 overflow-y-auto rounded-lg bg-Dark">
         <MusicHeader />
-        <div className="p-4">{children}</div>
+        <div className="p-6">{children}</div>
       </div>
     </div>
   )
