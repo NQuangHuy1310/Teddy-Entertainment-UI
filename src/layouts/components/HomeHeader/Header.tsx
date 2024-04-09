@@ -8,6 +8,7 @@ import { Link } from 'react-router-dom'
 import routes from '~/config/routes'
 import { backToTop } from '~/utils/common'
 import ChangeLanguage from './ChangeLanguage'
+import config from '~/config'
 
 const Header = () => {
   const { t } = useTranslation(['home'])
@@ -25,7 +26,7 @@ const Header = () => {
         </Link>
 
         <nav className="hidden items-center gap-8 capitalize lg:flex">
-          <Link to="" target="_blank" className="navLinks block">
+          <Link to={config.routes.music} target="_blank" className="navLinks block">
             {t('home.header.music')}
           </Link>
           <Link to="" target="_blank" className="navLinks block">

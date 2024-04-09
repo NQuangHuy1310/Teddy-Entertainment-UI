@@ -4,13 +4,14 @@ import { Link } from 'react-router-dom'
 import { twMerge } from 'tailwind-merge'
 
 const buttonStyles = cva(
-  'flex items-center justify-center whitespace-normal rounded-md bg-transparent font-roboto text-base font-normal text-black',
+  'flex items-center justify-center whitespace-normal rounded-md bg-transparent border-[1px] border-transparent font-roboto text-base font-normal text-black',
   {
     variants: {
       variant: {
         default: 'border-[1px] border-black bg-white text-black hover:opacity-80 hover:transition-all',
         background: 'bg-primary text-white border-[1px] border-transparent hover:opacity-90 hover:transition-all',
         error: 'bg-error text-white border-none',
+        success: 'bg-primary text-white border-none',
         link: 'text-primary underline-offset-4 hover:underline hover:transiton-all',
         outLine:
           'bg-white border-[2px] dark:border-Dark dark:text-Dark dark:bg-White border-black text-black rounded-lg hover:transition-all hover:border-primary'

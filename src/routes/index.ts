@@ -9,11 +9,17 @@ import Notifications from '~/pages/HomePage/Notifications'
 import Personal from '~/pages/HomePage/Notifications'
 import Register from '~/pages/Register'
 import Security from '~/pages/HomePage/Security'
+import MusicLayout from '~/layouts/MusicLayout'
+import HomeMusic from '~/pages/MusicPage/Home/HomeMusic'
 
 export const publicRoutes: route[] = [
+  // home
   { path: config.routes.home, element: Home, layout: HomeLayout },
   { path: config.routes.login, element: Login, layout: AuthLayout },
-  { path: config.routes.register, element: Register, layout: AuthLayout }
+  { path: config.routes.register, element: Register, layout: AuthLayout },
+
+  // music
+  { path: config.routes.music, element: HomeMusic, layout: MusicLayout }
 ]
 
 export const privateRoutes: route[] = [

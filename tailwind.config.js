@@ -34,9 +34,10 @@ export default {
         Gray3: '#777E90',
         Gray4: '#B1B5C3',
         Gray5: '#E6E8EC',
-        Gray6: '#F4F5F6'
+        Gray6: '#F4F5F6',
 
         // page ...
+        MusicHeader: '#242424'
       },
       backgroundColor: {
         White: '#fff',
@@ -60,6 +61,9 @@ export default {
         //dark
         DarkPrimary: '#EFEFEF',
         DarkSecondary: '#6F767E'
+      },
+      width: {
+        sideBarWidth: '26.25rem'
       },
       screens: {
         sm: '375px',
